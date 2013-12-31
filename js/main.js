@@ -7,6 +7,7 @@ var app = {
         this.store = new MemoryStore(function() {
             self.route();
         });
+        this.showAlert('App Ready!', 'Information');
     },
     
     showAlert: function(message, title) {
